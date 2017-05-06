@@ -1,0 +1,48 @@
+/*
+ * Theme Name: hagudu
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+
+.content-area {
+    width: 100%;
+    float: left;
+/*    margin-left: -280px;
+    padding-left: 280px;*/
+}
+.site-main {
+    background: #b2b2b2;
+}
+.site-content .widget-area {
+     width: 280px;
+    float: left;
+/*    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;*/
+    background-color: #fff;
+/*    background: hsl(#fff,100%,50%);
+    transform: rotate(-1deg);*/
+}
+.site-footer {
+    clear: both;
+    width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+    position: relative;
+    max-width: 680px;
+    max-width: 68rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+                
